@@ -4,7 +4,7 @@ import Home from "./Pages/index";
 import Contact from "./Pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
-//import Footer from "./components/Footer";
+import Footer from "./Components/Footer/Footer";
 //import "./style.css";
 //import "./components/images/19742.jpg";
 
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
-       {/* <Footer /> */}
+       <Footer />
       </div>
       </body>
     </Router>
